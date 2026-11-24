@@ -1,0 +1,6 @@
+{
+  "appId": "app.bluemoth.mobile",
+  "appName": "Blue Moth",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}
