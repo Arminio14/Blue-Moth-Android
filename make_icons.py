@@ -1,7 +1,7 @@
 # Setzt das Blue-Moth-Icon als Android-Launcher-Icon (läuft nach "cap add android").
 import os
 from PIL import Image
-src = Image.open('www/assets/moth_icon.png').convert('RGBA')
+src = Image.open('moth_icon.png').convert('RGBA')
 base = 'android/app/src/main/res'
 dens = {'mdpi': (48, 108), 'hdpi': (72, 162), 'xhdpi': (96, 216), 'xxhdpi': (144, 324), 'xxxhdpi': (192, 432)}
 for d, (legacy, fg) in dens.items():
