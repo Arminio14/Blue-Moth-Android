@@ -29,6 +29,7 @@ jobs:
 
       - name: Create web folders and copy files
         run: |
+          if [ -f www ]; then rm www; fi
           mkdir -p www/assets
           cp index.html www/
           cp app.js www/
